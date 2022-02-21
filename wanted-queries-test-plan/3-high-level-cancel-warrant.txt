@@ -1,0 +1,18 @@
+=== Description ===
+Verify that a user can create a warrant.
+
+=== Steps ===
+1. Launch the website as describe in https://ed.devmountain.com/materials/f18/exercises/testing/ Part 1
+2. Click on the nav link for Cancel Wanted
+3. Fill out the required info
+
+=== Postconditions ===
+- Submit produces an indication that the warrant was cancelled
+
+=== Test ===
+2022-02-21 James Hager
+Failed
+- Errors Received: At least one optional field needs to be included.
+- Issue: There are no optional fields
+Browser: Chrome Version 98.0.4758.102 (Official Build) (arm64)
+OS: macOS 12.2

@@ -1,0 +1,23 @@
+=== Description ===
+Verify that the modify a warrant Warrant ID must be between 10 numbers.
+
+=== Steps ===
+1. Launch the website as describe in https://ed.devmountain.com/materials/f18/exercises/testing/ Part 1
+2. Click on the nav link for Modify Wanted
+3. Enter a Warrant ID with 9 numeric characters
+4. Submit
+5. Enter a Warrant ID with 10 numeric characters
+6. Submit
+7. Enter a Warrant ID with 11 numeric characters
+8. Submit
+
+=== Postconditions ===
+- 4. creates Errors that includes Warrant ID
+- 6. creates no Warrant ID errors
+- 8. creates Errors that includes incorrect Warrant ID
+
+=== Test ===
+2022-02-21 James Hager
+Passed
+Browser: Chrome Version 98.0.4758.102 (Official Build) (arm64)
+OS: macOS 12.2

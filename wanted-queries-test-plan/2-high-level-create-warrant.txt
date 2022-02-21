@@ -1,0 +1,17 @@
+=== Description ===
+Verify that a user can create a warrant.
+
+=== Steps ===
+1. Launch the website as describe in https://ed.devmountain.com/materials/f18/exercises/testing/ Part 1
+2. Click on the nav link for Enter Wanted
+3. Fill out the required info
+4. Fill out one set of optional info
+
+=== Postconditions ===
+- Submit generates a good Assembled Query
+
+=== Test ===
+2022-02-21 James Hager
+Passed
+Browser: Chrome Version 98.0.4758.102 (Official Build) (arm64)
+OS: macOS 12.2

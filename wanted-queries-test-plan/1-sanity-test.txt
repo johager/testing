@@ -1,0 +1,19 @@
+=== Description ===
+Verify that a user can navigate around the site.
+
+=== Steps ===
+1. Launch the website as describe in https://ed.devmountain.com/materials/f18/exercises/testing/ Part 1
+2. Click on the nav links
+
+=== Postconditions ===
+- Home page should load w/nav area in a pop-out
+- Enter Wanted takes to Enter Wanted
+- Modify Wanted takes to Modify Wanted
+- Cancel Wanted takes to Cancel Wanted
+- Home takes to Home
+
+=== Test ===
+2022-02-21 James Hager
+Passed
+Browser: Chrome Version 98.0.4758.102 (Official Build) (arm64)
+OS: macOS 12.2

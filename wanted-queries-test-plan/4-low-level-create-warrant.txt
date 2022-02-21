@@ -1,0 +1,23 @@
+=== Description ===
+Verify that the create a warrant Header must be between 9 and 19 characters.
+
+=== Steps ===
+1. Launch the website as describe in https://ed.devmountain.com/materials/f18/exercises/testing/ Part 1
+2. Click on the nav link for Enter Wanted
+3. Enter a Header with 8 characters
+4. Submit
+5. Enter a Header with 10 characters
+6. Submit
+7. Enter a Header with 20 characters
+8. Submit
+
+=== Postconditions ===
+- 4. creates Errors that includes incorrect Header
+- 6. creates no Header Errors
+- 8. creates Errors that includes incorrect Header
+
+=== Test ===
+2022-02-21 James Hager
+Passed
+Browser: Chrome Version 98.0.4758.102 (Official Build) (arm64)
+OS: macOS 12.2
